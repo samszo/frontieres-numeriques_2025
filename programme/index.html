@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <base href=".">
+    <link rel="shortcut icon" href="../assets/logo-para.ico" />
+    <link rel="stylesheet" type="text/css" media="all" href="../assets/main.css" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Conference">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference, frontières, numériques, Paris 8, Laboratoire Paragraphe">
+    <title>6eme éd. Colloque Frontières numériques - 2025 - Programme</title>
+    <script src="../assets/d3.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="banner">
+        <img src="../assets/fn25-banner.png" alt="Conference Frontieres-numeriques 2025 Banner">
+        <div class="top-left">
+            <span class="year"> 6ème éd. </span><span class="title1">Frontières</span><span class="title2"> Numériques </span>
+        </div>
+        <div class="bottom-right">
+            2 - 3 octobre 2025 - Hammamet, Tunisie
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a title="Conference Home Page" href="../index.html">Accueil</a>
+            </td>
+            <td class="navigation">
+                <a class="current" title="Conference Program" href="#">Programme</a>
+            </td>
+
+            <!--
+            <td class="navigation">
+                <a title="Excursion Carthage" href="programme/excursion.html">Excursion Carthage</a>
+            </td>
+            <td class="navigation">
+                <a title="Register for the Conference" href="inscription/">Inscription</a>
+            </td>
+            <td class="navigation">
+                <a title="Directions to the Conference" href="acces">Accès</a>
+            </td>
+            <td class="navigation">
+                <a title="Conference Flyer" href="flyer">Flyer</a>
+            </td>
+            -->
+        </tr>
+    </table>
+
+    <div id="allProgramme"></div>
+
+    <div id="allInterventions"></div>
+
+    <div id="allParticipants"></div>
+    
+
+    <footer>
+        &copy; Laboratoire Paragraphe - Université Paris 8 
+        &nbsp;|&nbsp; Design by <a href="https://github.com/mikepierce">Mike Pierce</a>
+    </footer>
+
+</body>
+<script>
+function dateDiff(date1, date2){
+    var diff = {}                           // Initialisation du retour
+    var tmp = date2 - date1;
+ 
+    tmp = Math.floor(tmp/1000);             // Nombre de secondes entre les 2 dates
+    diff.sec = tmp % 60;                    // Extraction du nombre de secondes
+ 
+    tmp = Math.floor((tmp-diff.sec)/60);    // Nombre de minutes (partie entière)
+    diff.min = tmp % 60;                    // Extraction du nombre de minutes
+ 
+    tmp = Math.floor((tmp-diff.min)/60);    // Nombre d'heures (entières)
+    diff.hour = tmp % 24;                   // Extraction du nombre d'heures
+     
+    tmp = Math.floor((tmp-diff.hour)/24);   // Nombre de jours restants
+    diff.day = tmp;
+     
+    return diff;
+}
+    
+    d3.json("../assets/programme.json").then(data=>{
+        let p = data.programme,
+        divP = d3.select("#allProgramme"),
+        formeHeure = s=>{
+            if(!s.dateDeb || !s.dateFin)return 'inconnu';
+            let dur = dateDiff(s.dateDeb, s.dateFin);
+            return s.dateDeb
+                .toLocaleTimeString("fr-FR",{hour: "numeric",minute: "numeric"})
+                .replace(':',' H ')
+                +' -> '+
+                s.dateFin
+                .toLocaleTimeString("fr-FR",{hour: "numeric",minute: "numeric"})
+                .replace(':',' H ')
+                +'<br>Durée : '
+                +dur.hour.toLocaleString('fr-FR', {minimumIntegerDigits: 2,useGrouping: false})
+                +':'
+                +dur.min.toLocaleString('fr-FR', {minimumIntegerDigits: 2,useGrouping: false})  
+        };
+        formeJourHeure = s=>{
+            if(!s.dateDeb || !s.dateFin)return 'inconnu';
+            return s.dateDeb
+                .toLocaleTimeString("fr-FR",{weekday: 'long',year: 'numeric',month: 'long',day: 'numeric',hour: "numeric",minute: "numeric"})
+                .replace(':',' H ')
+                +' -> '+
+                s.dateFin
+                .toLocaleTimeString("fr-FR",{hour: "numeric",minute: "numeric"})
+                .replace(':',' H ')
+        };
+        formeSpeakers = (i,liste=true)=>{
+            if(!i.speakers)return ''; 
+            let html = liste ? '<ul>' : '';
+            i.speakers.forEach(s=>{
+                html += liste ? '<li>' : '';
+                if(s.role) html += '<span class="role">'+s.role+' : </span>';
+                html += '<span><b>'+s.nom+'</b></span>'
+                if(s.affiliation) html += '<span>, '+s.affiliation+'</span>';
+                html += liste ? '</li>' : '';
+            });
+            html += liste ? '</ul>' : '';
+            return html;
+        };
+        formeParticipants = (i,liste=true)=>{
+            if(!i.speakers)return ''; 
+            let html = '';
+            i.speakers.forEach(s=>{
+                if(s.role) html += '"'+s.role+'",';
+                html += '"'+s.nom+'"'
+                if(s.affiliation) html += ',"'+s.affiliation+'"';
+                html += '<br>';
+            });
+            return html;
+        };
+        formePdf = (i)=>{
+            if(!i.pdf)return ''; 
+            let html = '<embed src="'+i.pdf+'" width="800" height="500" type="application/pdf"/>';
+            return html;
+        };
+
+
+
+        //création du programme
+        divP.append('h2').text(p.titre);
+        //affiche les jours
+        p.jours.forEach(j => j.date = new Date(j.debut));
+        let divJ = divP.selectAll('div').data(p.jours).enter().append('div')
+            .attr('id',j=>j.id);
+        divJ.append('h3')    
+            .text(j=>j.date.toLocaleString('fr-FR',{weekday: 'long',year: 'numeric',month: 'long',day: 'numeric'}));
+        //calcul les heures d'interventions
+        p.interventions.forEach(i=>{
+            i.s = p.sessions.filter(s=>s.id==i.session)[0];
+            i.j = p.jours.filter(j=>j.id==i.s.jour)[0];
+            i.num = i.j.id+'s'+i.s.ordre+'i'+i.ordre;            
+        })
+        let sortInt = p.interventions.sort((a, b) => {
+            if (a.num < b.num) return -1;
+            if (a.num > b.num) return 1;
+            return 0;
+        });
+        sortInt.forEach(i=>{
+            let s = p.sessions.filter(s=>s.id==i.session)[0],
+                j = p.jours.filter(j=>j.id==s.jour)[0];            
+            if(!j.dateFin)j.dateFin=new Date(j.date.getTime());
+            if(!s.dateDeb)s.dateDeb = new Date(j.dateFin.getTime());
+            if(!s.dateFin)s.dateFin = new Date(j.dateFin.getTime());
+            i.dateDeb = new Date(s.dateFin.getTime());
+            s.dateFin.setMinutes(s.dateFin.getMinutes() + i.duree);
+            i.dateFin=new Date(s.dateFin.getTime());
+            j.dateFin=new Date(s.dateFin.getTime());            
+        })
+
+
+        //affiche les sessions
+        let sortSes = p.sessions.sort((a, b) => {
+            if ((a.jour+a.ordre) < (b.jour+b.ordre)) return -1;
+            if ((a.jour+a.ordre) > (b.jour+b.ordre)) return 1;
+            return 0;
+        }),
+         divS= divJ.selectAll('.session').data(j=>p.sessions.filter(s=>s.jour==j.id)).enter()
+            .append('div').attr('id',s=>s.id).attr('class','session');
+        divS.html(s=>{
+                let html = `<table ${s.speakers?'class="plenary"':''}>
+                    <tr>
+                        <td id="date${s.id}" class="date" rowspan="2">
+                            ${formeHeure(s)}
+                        </td>
+                        <td class="title-special">${s.titre}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="speaker">${formeSpeakers(s,false)}
+                        </td>
+                    </tr>
+                </table>`;
+                return html;
+            });
+        //affiche les interventions
+        divS.selectAll('.intervention').data(s=>sortInt.filter(i=>i.session==s.id && i.titre)).enter()
+            .append('div').attr('class','intervention')
+            .html(s=>{
+                let html = `<table class="inSession">
+                    <tr>
+                        <td class="date" rowspan="3">${formeHeure(s)}</td>
+                        <td class="title">${s.titre}</td>
+                    </tr>
+                    <tr>
+                        <td class="speaker">${formeSpeakers(s)}</td>
+                    </tr>
+                    <tr>
+                        <td class="abstract">${s.abstract?s.abstract:''}</td>
+                    </tr>
+                    <tr>
+                        <td class="date" rowspan="3"></td>
+                        <td class="pdf">${formePdf(s)}</td>
+                    </tr>
+                </table>`;
+                return html;
+            })
+        /*affiche liste des interventions
+        d3.select('#allInterventions').selectAll('p').data(sortInt.filter(i=>i.speakers)).enter()
+            .append('p').html(i=>'"'+formeJourHeure(i)+'";"'+i.duree+'";"'+i.id+'";"'+formeSpeakers(i,false)+'";"'+i.titre+'"');
+        */    
+        /*affiche liste des interventions
+        d3.select('#allParticipants').selectAll('p').data(sortInt.filter(i=>i.speakers)).enter()
+            .append('p').html(i=>formeParticipants(i));
+        */    
+
+                
+    });
+</script>
+</html>

@@ -1,0 +1,496 @@
+{
+    "programme": {
+        "titre": "Programme du colloque Frontières Numériques 2025",
+        "jours": [
+            {
+                "id": "j0",
+                "debut": "2025-10-01T16:00:00"
+            },
+            {
+                "id": "j1",
+                "debut": "2025-10-02T09:00:00"
+            },
+            {
+                "id": "j2",
+                "debut": "2025-10-03T08:30:00"
+            },
+            {
+                "id": "j3",
+                "debut": "2025-10-04T08:30:00"
+            }
+        ],
+        "sessions": [
+            {
+                "id": "sAc",
+                "titre": "Accueil et Inscriptions",
+                "jour": "j0",
+                "ordre": 1
+            },
+            {
+                "id": "sOuv",
+                "titre": "Ouverture du colloque",
+                "jour": "j1",
+                "ordre": 1
+            },
+            {
+                "id": "sPause1",
+                "titre": "Pause Café",
+                "jour": "j1",
+                "ordre": 3
+            },
+            {
+                "id": "sNarrations",
+                "titre": "Session : Frontières numériques des narrations",
+                "jour": "j1",
+                "speakers": [
+                    {
+                        "nom": "Claire NOY",
+                        "affiliation": "LERASS, Université de Montpellier Paul-Valéry, France",
+                        "role": "Modérateur"
+                    }
+                ],
+                "ordre": 2
+            },
+            {
+                "id": "sRepas1",
+                "titre": "Repas",
+                "jour": "j1",
+                "ordre": 6
+            },
+            {
+                "id": "sFronIA",
+                "titre": "Session : Frontières numériques des IA",
+                "jour": "j2",
+                "speakers": [
+                    {
+                        "role": "Modérateur",
+                        "nom": "Bruno BACHIMOND",
+                        "affiliation": "Université de technologie de Compiègne, France"
+                    }
+                ],
+                "ordre": 1
+            },
+            {
+                "id": "sAc1",
+                "titre": "Accueil et Inscriptions",
+                "jour": "j2",
+                "ordre": 0
+            },
+            {
+                "id": "sInter1",
+                "titre": "Session : Frontières numériques des interprétations 1",
+                "jour": "j1",
+                "speakers": [
+                    {
+                        "nom": "Sylvie LEULEU MERVIEL",
+                        "affiliation": "DeVisu, INSA Hauts-de-France, Arenberg Creative Mine, Valenciennes, France",
+                        "role": "Modérateur"
+                    }
+                ],
+                "ordre": 5
+            },
+            {
+                "id": "sInter2",
+                "titre": "Session : Frontières numériques des interprétations 2",
+                "jour": "j1",
+                "speakers": [
+                    {
+                        "role": "Modérateur",                       
+                        "nom": "Michel DURAMPART",
+                        "affiliation": "Université de Toulon, France"
+                    }
+                ],
+                "ordre": 7
+            },
+            {
+                "id": "sRepas2",
+                "titre": "Repas",
+                "jour": "j2",
+                "ordre": 4
+            },
+            {
+                "id": "sCloture",
+                "titre": "Cloture de la conférence",
+                "jour": "j2",
+                "ordre": 7
+            },
+            {
+                "id": "sExtra",
+                "titre": "Activités sociales",
+                "jour": "j3",
+                "speakers": [
+                    {
+                        "nom": "Malek GHENIMA",
+                        "role": "Organisateur"
+                    }
+                ],
+                "ordre": 10
+            }
+        ],
+        "interventions": [
+            {
+                "titre": "",
+                "session": "sAc",
+                "ordre": 2,
+                "duree": 120
+            },
+            {
+                "titre": "",
+                "session": "sAc1",
+                "ordre": 1,
+                "duree": 60
+            },
+            {
+                "speakers": [
+                    {
+                        "nom": "Imad SALEH",
+                        "role": "Président du Colloque",
+                        "affiliation": "Paragraphe, Université de Paris 8, France"
+                    },
+                    {
+                        "nom": "Samuel SZONIECKY",
+                        "role": "Président du Comité Programme",
+                        "affiliation": "Paragraphe, Université de Paris 8, France"
+                    },
+                    {
+                        "nom": "Malek GHENIMA",
+                        "role": "Président du Comité d’Organisation",
+                        "affiliation": "Ecole Supérieure de Commerce de Tunis - Université de Manouba, Tunisie"
+                    }
+                ],
+                "titre": "Allocution de bienvenue",
+                "session": "sOuv",
+                "ordre": 1,
+                "duree": 30
+            },
+            {
+                "titre": "",
+                "session": "sPause1",
+                "ordre": 8,
+                "duree": 20
+            },
+            {
+                "id": 4361,
+                "speakers": [
+                    {
+                        "nom": "Bruno BACHIMOND",
+                        "affiliation": "Université de technologie de Compiègne, France"
+                    },
+                    {
+                        "nom": "Serge BOUCHARDON",
+                        "affiliation": "Université de technologie de Compiègne, France"
+                    }
+                ],
+                "pdf": "",
+                "abstract": "À Compiègne se trouve un Mémorial de l'internement et de la déportation, sur le lieu même d'un camp de transit nazi (45.000 personnes ont été internées et déportées de 1942 à 1944). Le Mémorial souhaite proposer dans l'un des bâtiments des expériences narratives avec de la réalité mixte, en complémentarité du parcours muséal. L'enjeu est notamment de favoriser l’empathie historique, fondée sur la compréhension du contexte historique. Comment immerger la visiteuse ou le visiteur sans imposture historique ni morale ? Comment éviter l'écueil de l'anachronisme psychologique ? Comment garder la distance documentaire sans manifester le passé comme s'il était présent, alors qu'on le re-présente ? Dans le cadre du projet ITS-STORY qui a commencé début 2025, nous souhaitons privilégier une immersion distanciée, sans gamification ni identification, avec une position de témoin privilégié. Nous présenterons les réflexions qui ont prévalu dans ce projet ainsi que les premiers prototypes.",
+                "titre": "Le projet ITS-STORY : réalité mixte, narration interactive et empathie historique.",
+                "session": "sNarrations",
+                "ordre": 4,
+                "duree": 20
+            },
+            {
+                "id": 1682,
+                "titre": "Vie privée en ligne : une frontière paradoxale ?",
+                "speakers": [
+                    {
+                        "nom": "Alain LIORET",
+                        "affiliation": "Arts et Technologies de l'Image, Université Paris 8, France"
+                    }
+                ],
+                "pdf": "",
+                "session": "sNarrations",
+                "ordre": 5,
+                "abstract": "L’arrivée de l’ordinateur quantique offre de nouvelles perspectives de traitement de l’information, et notamment de nouvelles possibilités de créations artistiques numériques, ouvrant une fenêtre au-delà des frontières habituellement connues.",
+                "duree": 20
+            },
+            {
+                "id": 720,
+                "titre": "Les frontières numériques des narrations génératives",
+                "speakers": [
+                    {
+                        "nom": "Samuel SZONIECKY",
+                        "affiliation": "Paragraphe, Université Paris 8, France"
+                    }
+                ],
+                "pdf": "",
+                "abstract": "Les fictions génératives sont des récits qui se construisent en temps réel, en fonction des choix de l’utilisateur. Elles sont souvent présentées comme une nouvelle forme de narration, mais elles posent aussi la question de la frontière entre l’auteur et le lecteur. Dans cette présentation, nous allons explorer les enjeux narratifs et esthétiques de ces fictions génératives, ainsi que les implications éthiques et politiques de leur utilisation.",
+                "session": "sNarrations",
+                "ordre": 6,
+                "duree": 20
+            },
+            {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sNarrations",
+                "ordre": 7,
+                "duree": 30
+            },
+            {
+                "titre": "",
+                "session": "sRepas1",
+                "ordre": 1,
+                "duree": 120
+            },
+            {
+                "id": 9281,
+                "titre": "Frontières fluides et accessibilités différenciées. Quand l’hyperconnectivité redessine les formes de sociabilité",
+                "speakers": [
+                    {
+                        "nom": "Patrizia LAUDATI",
+                        "affiliation": "UCA Université Côte d’Azur, Sic.Lab Méditerranée, Nice, France"
+                    },
+                    {
+                        "nom": "Hafida BOULEKBACHE",
+                        "affiliation": "Laboratoire LARSH, Département DeVisu, INSA Hauts-de-France, France"
+                    }
+                ],
+                "pdf": "",
+                "session": "sInter1",
+                "ordre": 5,
+                "duree": 20
+            },
+            {
+                "id": 2228,
+                "titre": "Existe-t-il encore une frontière entre les news influenceurs et les journalistes ?",
+                "speakers": [
+                    {
+                        "nom": "Stéphanie LUKASIK",
+                        "affiliation": "FHSE-DHUM - University of Luxembourg, Luxembourg"
+                    },
+                    {
+                        "nom": "Alexandra SALOU",
+                        "affiliation": "Université Aix-Marseille, France"
+                    }
+                ],
+                "abstract": "A partir d’une analyse comparative de contenus des news influenceurs et des journalistes qui utilisent les réseaux socionumériques pour diffuser et produire de l’information d’actualités, nous verrons dans quelle mesure il existe encore une frontière entre les news influenceurs et les journalistes.",
+                "pdf": "",
+                "session": "sInter1",
+                "ordre": 2,
+                "duree": 20
+            },
+            {
+                "id": 164,
+                "titre": "De la fracture numérique aux frontières numériques : Pour une meilleure compréhension des inégalités numériques",
+                "speakers": [
+                    {
+                        "nom": "Olivier NANNIPIERI",
+                        "affiliation": "IMSIC, Université de Toulon, France"
+                    },
+                    {
+                        "nom": "Emmanuel BOUGON",
+                        "affiliation": "Commandant du groupement de Gendarmerie Maritime de la Méditerranée"
+                    }
+                ],
+                "abstract": "L’expression « frontières numériques » peut, en un sens, passer pour un oxymore. En effet, le numérique, pense-t-on, n’a pas de frontières, il s’affranchit des contraintes spatiales en connectant tout, ensemble, quasi instantanément. Il n’y aurait donc pas de frontières numériques. Qui plus est, il n’y aurait pas de frontières numériques à cause du – ou grâce au – caractère intangible d’une frontière numérique, du fait de la porosité qu’elle implique, du caractère éphémère qu’elle peut revêtir. En somme, les frontières numériques ne ressemblent pas à des frontières. Or, paradoxalement, l’information constitue un enjeu géostratégique majeur pour les états. C’est donc bien que cette information, voire, le cas échéant, cette guerre de l’information ne participe pas seulement de la sphère du numérique, mais qu’elle est géographiquement située. En effet, que serait le numérique sans la tangibilité des dispositifs qui produisent et distribuent l’information. Et, parmi ces dispositifs, certains constituent, par leur nature même et/ou par leur situation géographique, des nœuds géostratégiques. L’objectif de cette contribution consiste à proposer une analyse des frontières numériques, sur la base de l’examen de deux nœuds géostratégiques, des fonds marins à l’espace : les câbles sous-marins de la mer Rouge qui acheminent environ 90% du trafic internet entre l'Asie et l'Europe et les constellations de satellites GNSS (Global Navigation Satellite System, dont le fameux GPS) en orbite à 20 000 km autour de la terre. Ce choix dérive, en premier lieu, de l’importance de ces dispositifs tant leur dysfonctionnement pourrait plonger une partie du monde dans le chaos. En second lieu, il dérive du fait que certains états ont les moyens, aujourd’hui, de nuire considérablement au fonctionnement de ces dispositifs.",
+                "session": "sInter1",
+                "ordre": 5,
+                "duree": 20
+            },
+            {
+                "id": 1604,
+                "titre": "Frontières numériques et genre : l’éditorialisation des contenus réalisés par des femmes sur les plateformes de vidéo à la demande",
+                "speakers": [
+                    {
+                        "nom": "Chloé DELAPORTE",
+                        "affiliation": "laboratoire RIRRA21, Université de Montpellier Paul-Valéry, France"
+                    }
+                ],
+                "pdf": "resumes/Delaporte_FrontNumGenre.pdf",
+                "session": "sInter2",
+                "ordre": 1,
+                "duree": 20
+            },
+            {
+                "id": 16041,
+                "titre": "Le « numérique » est-il un interprétant ? Frontières pragmaticistes d’une notion volatile",
+                "speakers": [
+                    {
+                        "nom": "Julien PEQUIGNOT",
+                        "affiliation": "LERASS-CERIC, Université de Montpellier Paul-Valéry, France"
+                    }
+                ],
+                "pdf": "resumes/PequignotNumInterpretant.pdf",
+                "session": "sInter2",
+                "ordre": 2,
+                "duree": 20
+            },
+            {
+                "id": 16041,
+                "titre": "Repenser les enclosures de la recherche doctorale  : vers un écosystème numérique participatif et ouvert",
+                "speakers": [
+                    {
+                        "nom": "Alexandra SALOU",
+                        "affiliation": "IMSIC, Aix-Marseilles Université, France"
+                    },
+                    {
+                        "nom": "Claire NOY",
+                        "affiliation": "LERASS, Université de Montpellier Paul-Valéry, France"
+                    }
+                ],
+                "abstract": "Le stéréotype du doctorant, seul devant sa machine, paraît être dépassé à l’aune des réseaux sociaux et de la science ouverte. Il reste pourtant de nombreuses enclosures, économiques, académiques et sociales accentuées par les usages du numérique dans la recherche scientifique doctorale.  Il nous a ainsi semblé opportun de concevoir un espace numérique avec une gouvernance participative pour soutenir et accompagner les doctorants, à se positionner dans le monde de la recherche et dans une communauté qu’il co-construit. Une première perspective de valorisation de « la science en train de se faire » , initiée par l’auto-ethnologie, sera proposée afin d’initier un rapport réflexif à la situation de recherche dans une trajectoire personnelle du doctorant. Celle-ci sera complétée par une deuxième, plus collective,  facilitant  le co-design participatif dans l’écosystème de la recherche doctorale en SHS pour construire des ponts et réseaux.",
+                "session": "sInter2",
+                "ordre": 3,
+                "duree": 20
+            },
+            {
+                "id": 160411,
+                "titre": "Naviguer les frontières éducatives : le projet OLIVE au service d’un double diplôme franco-brésilien en visualisation des compétences",
+                "speakers": [
+                    {
+                        "nom": "Audilio GONZALES",
+                        "affiliation": "Paragraphe, Université Paul Valéry, France"
+                    }
+                ],
+                "abstract": "Le projet OLIVE (Online Learning and Interactive Vocational Education) propose une refonte des dispositifs d’orientation en s’appuyant sur la métaphore de la carte de métro pour visualiser les parcours de formation et de compétences. Porté conjointement par la France et le Brésil, et adossé au master MAVINUM (Université Paul-Valéry Montpellier 3), OLIVE vise à construire un double diplôme autour des métiers de la donnée, de l'information et des systèmes numériques. Ce projet interdisciplinaire combine IA, web sémantique, design visuel et open data pour favoriser la lisibilité, l’interopérabilité et la personnalisation des trajectoires d’apprentissage. Il contribue à franchir les frontières numériques entre institutions, pays, langues et cultures éducatives.",
+                "session": "sInter2",
+                "ordre": 3,
+                "duree": 20
+            },
+            {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sInter2",
+                "ordre": 7,
+                "duree": 30
+            },
+            {
+                "id": 16204,
+                "titre": "Frontières numériques et genre : l’éditorialisation des contenus réalisés par des femmes sur les plateformes de vidéo à la demande",
+                "speakers": [
+                    {
+                        "nom": "Alexandre JOUX",
+                        "affiliation": "IMSIC, Aix-Marseilles Université, France"
+                    }
+                ],
+                "pdf": "resumes/PropositionJoux.pdf",
+                "session": "sFronIA",
+                "ordre": 1,
+                "duree": 20
+            },
+            {
+                "id": 161204,
+                "titre": "Frontières technologiques et intelligences multiples : vers une reconfiguration des dynamiques organisationnelles",
+                "speakers": [
+                    {
+                        "nom": "Mabrouka EL HACHANI",
+                        "affiliation": "ELICO - Université Lyon3, France"
+                    },
+                    {
+                        "nom": "Isabelle CHOQUET",
+                        "affiliation": "ICHEC Brussels Management School, Belgique"
+                    }
+                ],
+                "pdf": "resumes/intelligencesmultiples.pdf",
+                "session": "sFronIA",
+                "ordre": 2,
+                "duree": 20
+            },
+            {
+                "id": 162014,
+                "titre": "« Ganisme » : Quand l’IA réinvente l’architecture – Les cas de Schumacher et Chaillou.",
+                "speakers": [
+                    {
+                        "nom": "Sami KAMOUN",
+                        "affiliation": "Ecole Supérieure Des Sciences et Technologies du Design, Université de la Manouba, Tunisie"
+                    }
+                ],
+                "pdf": "resumes/intelligencesmultiples.pdf",
+                "session": "sFronIA",
+                "ordre": 3,
+                "duree": 20
+            },
+            {
+                "id": 1620514,
+                "titre": "Les métiers de la communication à l’ère des IA génératives : le cas des agents intelligents",
+                "speakers": [
+                    {
+                        "nom": "Sami BEN AMOR",
+                        "affiliation": "Université de Toulon, France"
+                    },
+                    {
+                        "nom": "Michel DURAMPART",
+                        "affiliation": "Université de Toulon, France"
+                    }
+                ],
+                "abstract": "Il s’agira dans un premier temps de montrer à travers un pas de côté rétrospectif comment s’inscrivent les bouleversements actuels de la prochaine étape des IA génératives depuis l’arrivée de la micro-informatique notamment en revenant sur l’ouvrage collectif : « Où va le travail à l’ére du numérique » Jean-Luc Metzger, Frédéric Moatty et Anne-France de Saint Laurent-Kogan (2007). Ensuite, nous  nous proposons d’explorer comment les agents et systèmes multiagents, intégrant l’IA générative, transforment les métiers de la communication. À travers une approche critique et prospective, il s’agit de comprendre comment ces technologies des IAg décentralisent les pratiques traditionnelles (relations presse, communication de crise, community management, rédaction de contenus, stratégie éditoriale, etc.) en automatisant, personnalisant et redistribuant la charge cognitive et décisionnelle. Nous chercherons à conceptualiser la «communication distribuée » comme un nouveau paradigme, dans lequel des agents autonomes collaborent avec les professionnels de la « com », modifiant les rôles, les temporalités et les compétences attendues.",
+                "session": "sFronIA",
+                "ordre": 5,
+                "duree": 20
+            },
+            {
+                "id": 16280514,
+                "titre": "Approche évolutionniste orientée IA pour la détection de dommages et l’adaptation continue aux catastrophes naturelles.",
+                "speakers": [
+                    {
+                        "nom": "Youcef Y. TOUATI",
+                        "affiliation": "Paragraphe, Université de Paris 8, France"
+                    }
+                ],
+                "abstract": "C’est un travail qui rentre dans le cadre d’une thèse de doctorat en collaboration avec l’entreprise Bivariant et Microsoft. L’idée derrière est d‘exploiter des sources de données satellitaires pour la détection de dommages tout en utilisant des mécanismes orientés IA. Nous nous baserons sur des sets de données d’imagerie aérienne accessibles xView et Bright de quelques fournisseurs d’images très haute résolution comme Sentinel-2, Maxar ou Planet, pour faire les traitement puis nous nous pencherons sur la prévention d'un certain nombre de catastrophes naturelles.",
+                "session": "sFronIA",
+                "ordre": 6,
+                "duree": 20
+            },
+            {
+                "id": 162,
+                "titre": "IA générative et pratiques narratives : frontières du récit.",
+                "speakers": [
+                    {
+                        "nom": "Renée BOURASSA",
+                        "affiliation": "Université Laval, Canada"
+                    },
+                    {
+                        "nom": "Sylvie LEULEU MERVIEL",
+                        "affiliation": "DeVisu, INSA Hauts-de-France, Arenberg Creative Mine, Valenciennes, France"
+                    }
+                ],
+                "abstract": "Cette communication vise à rendre compte d’un nouveau projet de recherche qui s’amorce au sein du groupe de recherche Arcanes, portant sur l’IA générative et les pratiques narratives qu’elle suscite. Ces nouvelles avenues créatives sont porteuses d’imaginaires sociaux, tant dans les pratiques artistiques que dans les rhétoriques qu’elles mobilisent dans l’environnement socionumérique actuel. Elles instituent de nouvelles frontières dans la fabrique du récit, qui nous invitent à repenser les concepts de créativité, d’auctorialité et d’authenticité, à travers leurs frontières. Comment l&#39;IAg transforme-t-elle les modes du récit? Comment se manifeste-elle dans les imaginaires fictionnels et sociaux et enfin, comment les rhétoriques qu&#39;induit l&#39;IAg dans l&#39;espace social contribuent-elles à le modeler ? Notre hypothèse est qu’une approche narrative croisant les imaginaires fictionnels et sociaux de l’IAg permet d’en éclairer les manifestations tant dans les pratiques artistiques que dans l’espace social, afin de comprendre les pouvoirs de transformations profondes qu’elle suscite tant dans ses promesses que ses enjeux.",
+                "session": "sFronIA",
+                "ordre": 7,
+                "duree": 20
+            },
+            {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sFronIA",
+                "ordre": 8,
+                "duree": 30
+            },
+            {
+                "speakers": [
+                    {
+                        "nom": "Imad SALEH",
+                        "role": "Président du Colloque",
+                        "affiliation": "Paragraphe, Université de Paris 8, France"
+                    },
+                    {
+                        "nom": "Malek GHENIMA",
+                        "role": "Président du Comité d’Organisation",
+                        "affiliation": "Ecole Supérieure de Commerce de Tunis - Université de Manouba, Tunisie"
+                    },
+                    {
+                        "nom": "Samuel SZONIECKY",
+                        "role": "Président du Comité Programme",
+                        "affiliation": "Paragraphe, Université de Paris 8, France"
+                    }
+                ],
+                "titre": "Allocution de cloture du colloque",
+                "session": "sCloture",
+                "ordre": 3,
+                "duree": 30
+            },
+            {
+                "titre": "",
+                "session": "sRepas2",
+                "ordre": 1,
+                "duree": 90
+            },
+            {
+                "titre": "A définir...",
+                "session": "sExtra",
+                "ordre": 1,
+                "duree": 300
+            }
+        ]
+    }
+}
