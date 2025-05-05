@@ -44,8 +44,8 @@
                 "jour": "j1",
                 "speakers": [
                     {
-                        "nom": "Claire NOY",
-                        "affiliation": "LERASS, Université de Montpellier Paul-Valéry, France",
+                        "nom": "-",
+                        "affiliation": "-",
                         "role": "Modérateur"
                     }
                 ],
@@ -64,8 +64,8 @@
                 "speakers": [
                     {
                         "role": "Modérateur",
-                        "nom": "Bruno BACHIMOND",
-                        "affiliation": "Université de technologie de Compiègne, France"
+                        "nom": "-",
+                        "affiliation": "-"
                     }
                 ],
                 "ordre": 1
@@ -82,8 +82,8 @@
                 "jour": "j1",
                 "speakers": [
                     {
-                        "nom": "Sylvie LEULEU MERVIEL",
-                        "affiliation": "DeVisu, INSA Hauts-de-France, Arenberg Creative Mine, Valenciennes, France",
+                        "nom": "-",
+                        "affiliation": "-",
                         "role": "Modérateur"
                     }
                 ],
@@ -96,8 +96,8 @@
                 "speakers": [
                     {
                         "role": "Modérateur",                       
-                        "nom": "Michel DURAMPART",
-                        "affiliation": "Université de Toulon, France"
+                        "nom": "-",
+                        "affiliation": "-"
                     }
                 ],
                 "ordre": 7
