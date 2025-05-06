@@ -13,10 +13,6 @@
             {
                 "id": "j2",
                 "debut": "2025-10-03T08:30:00"
-            },
-            {
-                "id": "j3",
-                "debut": "2025-10-04T08:30:00"
             }
         ],
         "sessions": [
@@ -112,19 +108,19 @@
                 "id": "sCloture",
                 "titre": "Cloture de la conférence",
                 "jour": "j2",
-                "ordre": 7
+                "ordre": 3
             },
             {
                 "id": "sExtra",
                 "titre": "Activités sociales",
-                "jour": "j3",
+                "jour": "j2",
                 "speakers": [
                     {
                         "nom": "Malek GHENIMA",
                         "role": "Organisateur"
                     }
                 ],
-                "ordre": 10
+                "ordre": 9
             }
         ],
         "interventions": [
