@@ -54,25 +54,6 @@
                 "ordre": 6
             },
             {
-                "id": "sFronIA",
-                "titre": "Session : Frontières numériques des IA",
-                "jour": "j2",
-                "speakers": [
-                    {
-                        "role": "Modérateur",
-                        "nom": "-",
-                        "affiliation": "-"
-                    }
-                ],
-                "ordre": 1
-            },
-            {
-                "id": "sAc1",
-                "titre": "Accueil et Inscriptions",
-                "jour": "j2",
-                "ordre": 0
-            },
-            {
                 "id": "sInter1",
                 "titre": "Session : Frontières numériques des interprétations 1",
                 "jour": "j1",
@@ -97,6 +78,24 @@
                     }
                 ],
                 "ordre": 7
+            },{
+                "id": "sFronIA",
+                "titre": "Session : Frontières numériques des IA",
+                "jour": "j2",
+                "speakers": [
+                    {
+                        "role": "Modérateur",
+                        "nom": "-",
+                        "affiliation": "-"
+                    }
+                ],
+                "ordre": 1
+            },
+            {
+                "id": "sAc1",
+                "titre": "Accueil et Inscriptions",
+                "jour": "j2",
+                "ordre": 0
             },
             {
                 "id": "sRepas2",
@@ -266,7 +265,7 @@
             },
             {
                 "id": 164,
-                "titre": "De la fracture numérique aux frontières numériques : Pour une meilleure compréhension des inégalités numériques",
+                "titre": "Une approche géostratégique des frontières numériques",
                 "speakers": [
                     {
                         "nom": "Olivier NANNIPIERI",
@@ -449,7 +448,7 @@
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sFronIA",
-                "ordre": 8,
+                "ordre": 5,
                 "duree": 30
             },
             {
@@ -472,13 +471,13 @@
                 ],
                 "titre": "Allocution de cloture du colloque",
                 "session": "sCloture",
-                "ordre": 3,
+                "ordre": 6,
                 "duree": 30
             },
             {
                 "titre": "",
                 "session": "sRepas2",
-                "ordre": 1,
+                "ordre": 7,
                 "duree": 90
             },
             {
