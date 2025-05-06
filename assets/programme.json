@@ -342,6 +342,24 @@
                 "duree": 20
             },
             {
+                "id": 1604110,
+                "titre": "Images numériques : au-delà du réel, la vérité est ailleurs",
+                "speakers": [
+                    {
+                        "nom": "Sylvie LELEU MERVIEL",
+                        "affiliation": "DeVisu, INSA Hauts-de-France, Arenberg Creative Mine, Valenciennes, France"
+                    },
+                    {
+                        "nom": "Renée BOURASSA",
+                        "affiliation": "Université Laval, Canada"
+                    }
+                ],
+                "abstract": "En numérique, il existe une grande variété d'images dites &quot;trompeuses&quot;. Ellespartagent la caractéristique de s&#39;inscrire dans un rapport distancié ou faussé au réel. Un enseignement commun a été mis en place par les deux auteures. Après une formation asynchrone à la sémiotique de l&#39;image, il a été demandé aux étudiants du premier groupe de trouver une image trompeuse et de la commenter, et à ceux du deuxième groupe de concevoir une image trompeuse et de justifier son caractère trompeur. L&#39;ensemble des images a été déposé dans une base de données structurées élaborée par le troisième auteur. La communication rend compte de la démarche et des résultats obtenus. Ils montrent que les étudiants formés sont avertis du caractère trompeur de certaines images, ce qui dément leur prétendue naïveté à l&#39;ère de la post-vérité.",
+                "session": "sInter2",
+                "ordre": 4,
+                "duree": 20
+            },
+            {
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sInter2",
@@ -435,7 +453,7 @@
                         "affiliation": "Université Laval, Canada"
                     },
                     {
-                        "nom": "Sylvie LEULEU MERVIEL",
+                        "nom": "Sylvie LELEU MERVIEL",
                         "affiliation": "DeVisu, INSA Hauts-de-France, Arenberg Creative Mine, Valenciennes, France"
                     }
                 ],
