@@ -228,7 +228,7 @@ function dateDiff(date1, date2){
         d3.select('#allInterventions').selectAll('p').data(sortInt.filter(i=>i.speakers)).enter()
             .append('p').html(i=>'"'+formeJourHeure(i)+'";"'+i.duree+'";"'+i.id+'";"'+formeSpeakers(i,false)+'";"'+i.titre+'"');
         */    
-        /*affiche liste des interventions
+        /*affiche liste des participants
         d3.select('#allParticipants').selectAll('p').data(sortInt.filter(i=>i.speakers)).enter()
             .append('p').html(i=>formeParticipants(i));
         */    
