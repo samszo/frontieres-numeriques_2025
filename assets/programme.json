@@ -231,12 +231,12 @@
                 "titre": "Frontières fluides et accessibilités différenciées. Quand l’hyperconnectivité redessine les formes de sociabilité",
                 "speakers": [
                     {
-                        "nom": "Patrizia LAUDATI",
-                        "affiliation": "UCA Université Côte d’Azur, Sic.Lab Méditerranée, Nice, France"
-                    },
-                    {
                         "nom": "Hafida BOULEKBACHE",
                         "affiliation": "Laboratoire LARSH, Département DeVisu, INSA Hauts-de-France, France"
+                    },
+                    {
+                        "nom": "Patrizia LAUDATI",
+                        "affiliation": "UCA Université Côte d’Azur, Sic.Lab Méditerranée, Nice, France"
                     }
                 ],
                 "pdf": "",
