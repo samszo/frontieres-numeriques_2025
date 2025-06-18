@@ -184,21 +184,6 @@
                 "duree": 20
             },
             {
-                "id": 1682,
-                "titre": "Vie privée en ligne : une frontière paradoxale ?",
-                "speakers": [
-                    {
-                        "nom": "Alain LIORET",
-                        "affiliation": "Arts et Technologies de l'Image, Université Paris 8, France"
-                    }
-                ],
-                "pdf": "",
-                "session": "sNarrations",
-                "ordre": 5,
-                "abstract": "L’arrivée de l’ordinateur quantique offre de nouvelles perspectives de traitement de l’information, et notamment de nouvelles possibilités de créations artistiques numériques, ouvrant une fenêtre au-delà des frontières habituellement connues.",
-                "duree": 20
-            },
-            {
                 "id": 720,
                 "titre": "Tergiversations terminologiques d’une indisciplinée sans frontières sur les entours du numérique",
                 "speakers": [
