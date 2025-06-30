@@ -442,14 +442,14 @@
             },
             {
                 "id": 16280514,
-                "titre": "Approche évolutionniste orientée IA pour la détection de dommages et l’adaptation continue aux catastrophes naturelles.",
+                "titre": "Détection et identification de zones de dommages résultant de catastrophes naturelles à base d’un système orienté IA pour l’analyse et le traitement automatique des images satellitaires.",
                 "speakers": [
                     {
                         "nom": "Youcef Y. TOUATI",
                         "affiliation": "Paragraphe, Université de Paris 8, France"
                     }
                 ],
-                "abstract": "C’est un travail qui rentre dans le cadre d’une thèse de doctorat en collaboration avec l’entreprise Bivariant et Microsoft. L’idée derrière est d‘exploiter des sources de données satellitaires pour la détection de dommages tout en utilisant des mécanismes orientés IA. Nous nous baserons sur des sets de données d’imagerie aérienne accessibles xView et Bright de quelques fournisseurs d’images très haute résolution comme Sentinel-2, Maxar ou Planet, pour faire les traitement puis nous nous pencherons sur la prévention d'un certain nombre de catastrophes naturelles.",
+                "abstract": "Notre recherche vise à créer un système d'IA capable d'analyser automatiquement des images satellitaires, mais pas uniquement, afin d’identifier les zones de dommages résultant de catastrophes naturelles. De nos jours, l'évaluation des dommages nécessite des ressources logistiques et humaines importantes nécessitant des délais importants pouvant s’étaler sur plusieurs jours, augmentant considérablement les coûts. Dans ce contexte, nous souhaitons apporter une contribution en développant une approche orientée IA permettant de tenir compte des préoccupations urgentes d’intervention telles que les zones de couverture, les délais de traitement, etc. L’idée étant de rationaliser les temps de réponse des premiers intervenants et des secours, et d'optimiser l'allocation des ressources pour une assistance humanitaire garantie post-catastrophes. Touchant de près les frontières du numérique, une part importante de ce travail de recherche sera consacrée aux traitements et la fusion des données hétérogènes et non structurées issues de sources multiples.",
                 "session": "sFronIA",
                 "ordre": 6,
                 "duree": 20
