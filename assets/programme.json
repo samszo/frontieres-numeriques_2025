@@ -230,25 +230,6 @@
                 "duree": 20
             },
             {
-                "id": 2228,
-                "titre": "Existe-t-il encore une frontière entre les news influenceurs et les journalistes ?",
-                "speakers": [
-                    {
-                        "nom": "Stéphanie LUKASIK",
-                        "affiliation": "FHSE-DHUM - University of Luxembourg, Luxembourg"
-                    },
-                    {
-                        "nom": "Alexandra SALOU",
-                        "affiliation": "Université Aix-Marseille, France"
-                    }
-                ],
-                "abstract": "A partir d’une analyse comparative de contenus des news influenceurs et des journalistes qui utilisent les réseaux socionumériques pour diffuser et produire de l’information d’actualités, nous verrons dans quelle mesure il existe encore une frontière entre les news influenceurs et les journalistes.",
-                "pdf": "",
-                "session": "sInter1",
-                "ordre": 2,
-                "duree": 20
-            },
-            {
                 "id": 164,
                 "titre": "Une approche géostratégique des frontières numériques",
                 "speakers": [
@@ -473,10 +454,30 @@
                 "duree": 20
             },
             {
+                "id": 2228,
+                "titre": "Existe-t-il encore une frontière entre les news influenceurs et les journalistes ?",
+                "speakers": [
+                    {
+                        "nom": "Stéphanie LUKASIK",
+                        "affiliation": "FHSE-DHUM - University of Luxembourg, Luxembourg"
+                    },
+                    {
+                        "nom": "Alexandra SALOU",
+                        "affiliation": "Université Aix-Marseille, France"
+                    }
+                ],
+                "abstract": "A partir d’une analyse comparative de contenus des news influenceurs et des journalistes qui utilisent les réseaux socionumériques pour diffuser et produire de l’information d’actualités, nous verrons dans quelle mesure il existe encore une frontière entre les news influenceurs et les journalistes.",
+                "pdf": "",
+                "session": "sFronIA",
+                "ordre": 8,
+                "duree": 20
+            },
+
+            {
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sFronIA",
-                "ordre": 8,
+                "ordre": 9,
                 "duree": 30
             },
             {
