@@ -209,7 +209,7 @@
                 "titre": "",
                 "session": "sRepas1",
                 "ordre": 1,
-                "duree": 120
+                "duree": 80
             },
             {
                 "id": 9281,
@@ -226,7 +226,7 @@
                 ],
                 "pdf": "resumes/HB-PL_FRONTIERESFLUIDESETACCESSIBILITES.pdf",
                 "session": "sInter1",
-                "ordre": 5,
+                "ordre": 4,
                 "duree": 20
             },
             {
@@ -245,6 +245,24 @@
                 "abstract": "L’expression « frontières numériques » peut, en un sens, passer pour un oxymore. En effet, le numérique, pense-t-on, n’a pas de frontières, il s’affranchit des contraintes spatiales en connectant tout, ensemble, quasi instantanément. Il n’y aurait donc pas de frontières numériques. Qui plus est, il n’y aurait pas de frontières numériques à cause du – ou grâce au – caractère intangible d’une frontière numérique, du fait de la porosité qu’elle implique, du caractère éphémère qu’elle peut revêtir. En somme, les frontières numériques ne ressemblent pas à des frontières. Or, paradoxalement, l’information constitue un enjeu géostratégique majeur pour les états. C’est donc bien que cette information, voire, le cas échéant, cette guerre de l’information ne participe pas seulement de la sphère du numérique, mais qu’elle est géographiquement située. En effet, que serait le numérique sans la tangibilité des dispositifs qui produisent et distribuent l’information. Et, parmi ces dispositifs, certains constituent, par leur nature même et/ou par leur situation géographique, des nœuds géostratégiques. L’objectif de cette contribution consiste à proposer une analyse des frontières numériques, sur la base de l’examen de deux nœuds géostratégiques, des fonds marins à l’espace : les câbles sous-marins de la mer Rouge qui acheminent environ 90% du trafic internet entre l'Asie et l'Europe et les constellations de satellites GNSS (Global Navigation Satellite System, dont le fameux GPS) en orbite à 20 000 km autour de la terre. Ce choix dérive, en premier lieu, de l’importance de ces dispositifs tant leur dysfonctionnement pourrait plonger une partie du monde dans le chaos. En second lieu, il dérive du fait que certains états ont les moyens, aujourd’hui, de nuire considérablement au fonctionnement de ces dispositifs.",
                 "session": "sInter1",
                 "ordre": 5,
+                "duree": 20
+            },
+            {
+                "id": 165,
+                "titre": "Au frontières du numérique, l’autre n’est toujours pas une donnée",
+                "speakers": [
+                    {
+                        "nom": "Franck RENUCCI",
+                        "affiliation": "IMSIC, Université de Toulon, France"
+                    },
+                    {
+                        "nom": "Benoît LE BLANC",
+                        "affiliation": "Ecole nationale supérieur de cognitique, Talence, France"
+                    }
+                ],
+                "pdf": "resumes/RenucciLeBlancFrontieresNumeriques.pdf",
+                "session": "sInter1",
+                "ordre": 6,
                 "duree": 20
             },
             {
